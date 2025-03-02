@@ -1,0 +1,74 @@
+<!DOCTYPE College[
+<!ELEMENT College(Student+)>
+<!ELEMENT Student(Name+,Rollno,Course, Phone?, Address+)>
+<!ELEMENT Name (Fname,Mname?,Lname)>
+<!ELEMENT Address(City,District,Country?)>
+]>
+
+<College>
+<Student>
+<!-- Name -->
+<Name>
+<Fname>Rajan</Fname>
+<Mname>Poudel</Mname>
+<Lname>Sharma</Lname>
+</Name>
+<!-- Name ends -->
+
+
+<!-- Rollno -->
+<Rollno>21</Rollno>
+<!-- Rollno ends -->
+
+<!-- Course -->
+<Course>BCA</Course>
+<!-- Course ends -->
+
+<!-- Phone -->
+<Phone>9767949689</Phone>
+<!-- Phone ends -->
+
+<!-- Address -->
+<Address>
+<City>Nawalparasi</City>
+<District>Gaindakot</District>
+<Country>Nepal</Country>
+</Address>
+<!-- Address ends -->
+</Student>
+
+
+<!-- Second Student Data-->
+<Student>
+<!-- Name -->
+<Name>
+<Fname>Pradeep</Fname>
+<Mname>Sharma</Mname>
+<Lname>Sharma</Lname>
+</Name>
+<!-- Name ends -->
+
+<!-- Rollno -->
+<Rollno>22</Rollno>
+<!-- Rollno ends -->
+
+<!-- Course -->
+<Course>
+BCA </Course>
+<!-- Course ends -->
+
+<!-- Phone -->
+<Phone>9867949689</Phone>
+<!-- Phone ends -->
+
+<!-- Address -->
+<Address>
+<City>Nawalparasi</City>
+<District>Gaindakot</District>
+</Address>
+<!-- Address ends -->
+
+</Student>
+
+<!-- Main node called college ends -->
+</College>

@@ -1,4 +1,5 @@
 <!DOCTYPE College[
+
 <!ELEMENT College(Student+)>
 <!ELEMENT Student(Name+,Rollno,Course, Phone?, Address+)>
 <!ELEMENT Name (Fname,Mname?,Lname)>

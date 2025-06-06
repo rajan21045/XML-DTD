@@ -7,7 +7,9 @@
 ]>
 
 <College>
+
 <Student>
+
 <!-- Name -->
 <Name>
 <Fname>Rajan</Fname>
@@ -36,11 +38,15 @@
 <Country>Nepal</Country>
 </Address>
 <!-- Address ends -->
+
+
 </Student>
 
 
 <!-- Second Student Data-->
+
 <Student>
+
 <!-- Name -->
 <Name>
 <Fname>Pradeep</Fname>

@@ -6,7 +6,7 @@
         <heading>Reminder</heading>
         <body>Don't forget me this weekend!</body>
     </note>
-
+ 
     <note id="2">
         <to>John</to>
         <from>Jane</from>
